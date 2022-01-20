@@ -1,0 +1,57 @@
+{
+  "name": "projectnative",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "set export NODE_OPTIONS=--openssl-legacy-provider && react-native start -- --reset-cache",
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider; gatsby build",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-native-fontawesome": "^0.2.7",
+    "@react-native-async-storage/async-storage": "^1.15.11",
+    "@react-native-community/datetimepicker": "^3.5.2",
+    "@react-native-picker/picker": "^2.2.1",
+    "@react-navigation/bottom-tabs": "^6.0.9",
+    "@react-navigation/material-top-tabs": "^6.0.6",
+    "@react-navigation/native": "^6.0.6",
+    "@react-navigation/native-stack": "^6.2.5",
+    "@react-navigation/stack": "^6.0.11",
+    "react": "17.0.2",
+    "react-native": "0.66.1",
+    "react-native-action-button": "^2.8.5",
+    "react-native-calendar-strip": "^2.2.5",
+    "react-native-calendars": "^1.1268.0",
+    "react-native-date-picker": "^4.1.1",
+    "react-native-elements": "^3.4.2",
+    "react-native-number-please": "^1.0.5",
+    "react-native-pager-view": "^5.4.9",
+    "react-native-paper": "^4.9.2",
+    "react-native-safe-area-context": "^3.3.2",
+    "react-native-screen": "^1.0.1",
+    "react-native-screens": "^3.9.0",
+    "react-native-spin-picker": "0.0.2",
+    "react-native-svg": "^12.1.1",
+    "react-native-swipeout": "^2.3.6",
+    "react-native-tab-view": "^3.1.1",
+    "react-native-vector-icons": "^9.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.15.8",
+    "@babel/runtime": "7.15.4",
+    "@react-native-community/eslint-config": "2.0.0",
+    "babel-jest": "26.6.3",
+    "eslint": "7.14.0",
+    "jest": "26.6.3",
+    "metro-react-native-babel-preset": "0.66.2",
+    "react-test-renderer": "17.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
